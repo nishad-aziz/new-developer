@@ -3,19 +3,22 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 52px;
+    font-size: 45px;
+
+}
+h2{
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px ;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
-
 }
 .half-width img{
     width: 80%;
@@ -37,4 +40,32 @@ background-repeat: no-repeat;
     background-image:url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40% ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5%;
+}
+#web-dev-experience{
+    border-image: linear-gradient(#3c6ef6, cyan) ;
+    border-left: 7px solid;
+    border-image-slice: 1;
+
+}
+#full-stack-developer{
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-left: 7px solid;
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
